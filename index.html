@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!--font-2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .sora-font{
+  font-family: "Sora", serif;
+        }
+  .adlam-font{
+  font-family: "ADLaM Display", serif;
+  
+}
+
+
+    </style>
+</head>
+<body class="sora-font">
+    <!--head-->
+    <header class="bg-[rgb(255,249,244)] w-full h-20 flex justify-center items-center ">
+     <div class="flex  gap-2  ">
+     <img class="w-10 h-10 " src="c1-assets/logo-header.png" alt="">
+    <h3 class="w-70 h-8 text-2xl font-semibold hidden sm::block ">Browse<span class="text-[rgb(255,220,38)]">4</span>Pets</h3>
+        </div>
+    <div class="flex gap-8 font-semibold text-1xl  ">
+        <ul class="hidden sm:block" >Find a pet</ul>
+        <ul class="hidden sm:block">Breeds</ul>
+        <ul class="hidden sm:block">Contact us</ul>
+    </div>
+    <div class=" flex m-28 font-semibold  ">
+    <div class="flex gap-4 w-28 justify-center  ">
+    <svg class="w-4 hidden md:block"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg>  
+    <svg class="w-4 hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+</div>
+<div class="flex gap-2">
+    <button class="text-center w-20 h-8 border-1 border-[rgb(255,220,38)] rounded-lg hidden sm:block">Login</button>
+    <button class="text-center w-24 h-8 bg-[rgb(255,220,38)] rounded-lg hidden sm:block">Register</button>
+</div>
+    </div>
+<div class="sm:hidden ">
+        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg> 
+    </div>
+</header>
+    <!--pamper-->
+    <section class=" pt-2 m-auto lg:w-[1150px] lg:h-[600px] sm:w-auto ">
+    <div class=" m-8 ">
+    <h1 class="font-[700] text-[30px] w-96  adlam-font " >Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+    <p class="font-thin text-[15px] w-96 mt-2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+    <div class="pt-6 w-max "><button class=" font-semibold rounded-lg bg-[rgb(255,220,38)] w-28 h-8 text-[15px] ">Find a pet</button></div>
+    
+</div>
+<div class="">
+    <img class=" lg:w-[800px] lg:h-[600px] -z-10 lg:absolute lg:bottom-0 lg:right-40 sm:pb-9 " src="c1-assets/cat-big.png" alt="">
+</div>
+    </section>
+    <!--bro-->
+<h1 class="text-black  m-auto lg:w-[1050px] py-3 text-[20px] adlam-font">
+  Browse By Categories
+</h1> 
+<section class="sm:grid-cols-2"> 
+<div class="lg:w-[1200px] lg:h-[280px] lg:flex m-auto lg:gap-5 sm:w-auto sm:h-auto sm:grid sm:grid-cols-2 sm:gap-5">
+<div class=" w-[190px] h-[240px]  rounded-lg bg-[rgb(249,223,138)] ">
+     <div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+        <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/dog-cartoon.png" alt="">
+        
+     </div>
+     <h6 class="pt-16 mx-17 adlam-font ">Dog</h6>
+     <p class="mx-14">3 items</p>
+</div>
+<div class=" w-[190px] h-[240px] rounded-lg  bg-[rgb(249,223,138)] ">
+        <div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+           <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/fish-cartoon.png" alt="">
+           
+        </div>
+        <h6 class="pt-16 mx-17 adlam-font ">Fish</h6>
+        <p class="mx-14">3 items</p>
+</div>
+<div class="w-[190px]  h-[240px] rounded-lg bg-[rgb(249,223,138)] ">
+ <div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+ <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/cat-cartoon.png" alt="">
+           
+</div>
+<h6 class="pt-16 mx-17 adlam-font ">Cat</h6>
+<p class="mx-14">3 items</p>
+</div>
+<div class="w-[190px]  h-[240px] rounded-lg bg-[rgb(249,223,138)]">
+        <div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+           <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/bird-cartoon.png" alt="">
+           
+        </div>
+        <h6 class="pt-16 mx-17 adlam-font ">Birds</h6>
+        <p class="mx-14">3 items</p>
+</div>
+<div class="w-[190px]  h-[240px] rounded-lg bg-[rgb(249,223,138)]">
+           <div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+              <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/mouse-cartoon.png" alt="">
+              
+           </div>
+           <h6 class="pt-16 mx-17 adlam-font ">Small pet</h6>
+           <p class="mx-14">3 items</p>
+</div>
+<div class="w-[190px]  h-[240px] rounded-lg bg-[rgb(249,223,138)]">
+<div class="w-24 h-24 rounded-full bg-white  relative top-10 left-10 ">
+    <img class="w-12 h-12 relative top-6 left-6  " src="c1-assets/rabbit-cartoon.png" alt="">
+              
+   </div>
+   <h6 class="pt-16 mx-17 adlam-font ">Rabit</h6>
+   <p class="mx-14">3 items</p>
+</div>
+</div>
+</section>
+<!--trendding-->
+<section class="lg:w-full lg:h-[550px] m-auto bg-[rgb(255,249,244)]  ">
+<h3 class="text-black text-[20px] m-auto lg:w-[1050px] py-3 adlam-font">
+    Trending Pet Products
+</h3> 
+ <div class="lg:flex lg:justify-center gap-5 "> 
+    <div class="left  w-[400px] h-[400px] bg-[rgb(249,223,138)] rounded-lg ">
+    <h1 class="font-[700] text-[30px] w-96  adlam-font mx-4 " >T-Shirt For Dogs <br> the Bes</h1>
+    <p class="font-thin text-[15px] w-96 mt-2 mx-4 ">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+    <div class="pt-6 w-max mx-4 "><button class="  rounded-lg bg-[rgb(255,255,255)] w-28 h-8 text-[15px] ">Shop Now</button></div>
+     <div class=" w-[244px] h-[320px]">
+        <img class="w-[200px] h-[250px] relative left-45 bottom-18" src="c1-assets/cute-pet-mid.png" alt="">
+     </div>
+    </div>
+    <div class="right-main gap-5 grid lg:grid-cols-3 lg:grid-rows-3  sm:grid-cols-2">
+<div class="right sm:w-auto sm:h-auto ">
+ <div class="bg-white  rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+    <div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+        <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/dog-cartoon.png" alt="">
+    </div>
+<div class="">
+       <div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+        <h6 class=" adlam-font ">4.5</h6> </div>
+        <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+        <p class="text-[18px]">$39.99</p>
+ </div>
+            
+         </div>  
+</div>
+<div class="right sm:w-auto sm:h-auto ">
+     <div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+    <div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+        <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/fish-cartoon.png" alt="">
+    </div>
+<div class="">
+       <div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+        <h6 class=" adlam-font ">4.5</h6> </div>
+        <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+        <p class="text-[18px]">$39.99</p>
+ </div>
+            
+         </div>  
+</div>
+<div class="right sm:w-auto sm:h-auto ">
+        <div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+       <div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+           <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/bird-cartoon.png" alt="">
+       </div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+<h6 class=" adlam-font ">4.5</h6> </div>
+ <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+ <p class="text-[18px]">$39.99</p>
+ </div>
+               
+</div>  
+</div>
+<div class="right  sm:w-auto sm:h-auto">
+ <div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+<div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+ <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/rabbit-cartoon.png" alt="">
+ </div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+           <h6 class=" adlam-font ">4.5</h6> </div>
+           <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+           <p class="text-[18px]">$39.99</p>
+    </div>
+               
+            </div>  
+</div>
+<div class="right  sm:w-auto sm:h-auto ">
+<div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+<div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+<img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/bird-cartoon.png" alt="">
+</div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+<h6 class=" adlam-font ">4.5</h6> </div>
+<h6 class="font-semibold text-[20px]">Pet Bed</h6>
+<p class="text-[18px]">$39.99</p>
+</div>
+                   
+</div>  
+</div>
+<div class="right  sm:w-auto sm:h-auto">
+<div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+<div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+<img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/pet-couch.png" alt="">
+</div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+<h6 class=" adlam-font ">4.5</h6> </div>
+<h6 class="font-semibold text-[20px]">Pet Bed</h6>
+<p class="text-[18px]">$39.99</p>
+</div>
+                   
+</div>  
+</div>
+<div class="right  sm:w-auto sm:h-auto">
+<div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+<div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+<img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/fish-cartoon.png" alt="">
+</div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+       <h6 class=" adlam-font ">4.5</h6> </div>
+        <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+        <p class="text-[18px]">$39.99</p>
+        </div>
+                      
+       </div>  
+</div>
+<div class="right  sm:w-auto sm:h-auto">
+<div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+<div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+ <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/rabbit-cartoon.png" alt="">
+ </div>
+<div class="">
+<div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+<h6 class=" adlam-font ">4.5</h6> </div>
+<h6 class="font-semibold text-[20px]">Pet Bed</h6>
+<p class="text-[18px]">$39.99</p>
+ </div>
+                      
+</div>  
+</div>
+<div class="right sm:w-auto sm:h-auto ">
+    <div class="bg-white rounded-lg w-[250px] h-[118px] flex gap-8 stroke-[rgba(17,17,17,0.1)]">
+    <div class="w-[84px] rounded-lg h-[84px] bg-[rgb(255,249,244)] relative top-4 left-4">
+     <img class="w-[48px] h-[48px] relative top-5 left-4" src="c1-assets/pet-couch.png" alt="">
+     </div>
+    <div class="">
+    <div class="flex pt-6"> <svg class="w-5 text-[rgb(255,193,7)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+    <h6 class=" adlam-font ">4.5</h6> </div>
+    <h6 class="font-semibold text-[20px]">Pet Bed</h6>
+    <p class="text-[18px]">$39.99</p>
+     </div>
+                          
+    </div>  
+    </div>
+</div>
+</div>
+</section> 
+<!--my div-->
+<section class="ques w-auto sm:h-96 lg:h-80 bg-gradient-to-r from-pink-100 from-10% via-sky-200 via-30%  to-emerald-400 to-90%  italic">
+ <div class="w-full flex gap-2 justify-center pt-10">
+<svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 192l17.1 0c22.1 38.3 63.5 64 110.9 64c11 0 21.8-1.4 32-4l0 4 0 32 0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-140.8L280 448l56 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-144 0c-53 0-96-43-96-96l0-223.5c0-16.1-12-29.8-28-31.8l-7.9-1c-17.5-2.2-30-18.2-27.8-35.7s18.2-30 35.7-27.8l7.9 1c48 6 84.1 46.8 84.1 95.3l0 85.3c34.4-51.7 93.2-85.8 160-85.8zm160 26.5s0 0 0 0c-10 3.5-20.8 5.5-32 5.5c-28.4 0-54-12.4-71.6-32c0 0 0 0 0 0c-3.7-4.1-7-8.5-9.9-13.2C357.3 164 352 146.6 352 128c0 0 0 0 0 0l0-96 0-20 0-1.3C352 4.8 356.7 .1 362.6 0l.2 0c3.3 0 6.4 1.6 8.4 4.2c0 0 0 0 0 .1L384 21.3l27.2 36.3L416 64l64 0 4.8-6.4L512 21.3 524.8 4.3c0 0 0 0 0-.1c2-2.6 5.1-4.2 8.4-4.2l.2 0C539.3 .1 544 4.8 544 10.7l0 1.3 0 20 0 96c0 17.3-4.6 33.6-12.6 47.6c-11.3 19.8-29.6 35.2-51.4 42.9zM432 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"/></svg>
+<h1 class="font-semibold text-[30px]">Pet Tips</h1> 
+ </div>
+
+<div class="text-black q-6 lg:grid font-semibold lg:grid-cols-2 m-auto pt-10 gap-6 mx-18">
+<ul><button class=" text-[20px] font-semibold">
+1.Cat or cat - who to choose?
+</button></ul>
+<ul> <button class=" text-[20px] font-semibold">
+2.What breed of cats to choose for an apartment?
+
+</button></ul>
+<ul><button class=" text-[20px] font-semibold">
+3.Which cat to choose for a child: 5 best breeds?
+</button></ul>
+<ul><button class="text-[20px] font-semibold">
+4.What influences the price formation for a puppy??
+    
+</button></ul>
+<ul><button class="text-[20px] font-semibold">
+5.What influences the price formation for a puppy?
+ </button></ul>
+<ul><button class="text-[20px] font-semibold">
+6.What influences the price formation for a puppy?
+        
+</button></ul>
+</div>
+    
+
+</section>
+<!--low price-->
+<section>
+<h6 class="adlam-font w-[330px] h-20 text-center text-[20px] pt-6 ">Everyday low Price</h6>
+<div class="main sm:grid  lg:flex w-auto h-auto pr-8 ">
+<div class="right sm:w-auto sm:h-auto flex lg:w-[800px] lg:h-[450px] bg-gradient-to-r from-purple-300 from-40% to-blue-300 to-60% mx-18 rounded-lg">
+<div class="h pt-32 mx-20 ">
+<h6 class="lg:w-[110px] lg:h-[25px] font-medium ">Under Price</h6>
+<h2 class="adlam-font lg:w-72 lg:h-10 text-[28px]" >Pet Grooming Mitt</h2>
+<h6 class="text-white adlam-font lg:w-72 lg:h-10 text-[20px]">(Easy Hair Removal)</h6>
+<p class=" adlam-font lg:w-72 lg:h-10 text-[40px]">$7.99</p>
+</div>
+<div> <img class="w-[390px] h-[450px]  relative lg:right-6 lg:top-5" src="c1-assets/cute-dog-mid.png" alt=""></div>
+</div>
+<div class="left flex sm:w-auto  sm:h-auto lg:w-[650px] lg:h-[450px] bg-gradient-to-br from-pink-100 from-40% to-orange-200 to-60% rounded-lg ">
+<div class="h pt-12 mx-18">
+
+<h2 class="adlam-font w-72 h-10 text-[28px]" >T-Shirt for Dogs</h2>
+
+<p class=" text-[rgb(255,220,38)] adlam-font w-72 h-10 text-[40px]">$7.99</p>
+</div>
+<div> <img class="w-[390px] h-[420px]  relative lg:right-8 lg:top-7" src="c1-assets/cute-pet-mid.png" alt=""></div>
+
+</div>
+</div>
+</section>
+<!--relative-->
+<section class=" bg-[rgb(255,249,244)] lg:flex pt-18 justify-center w-[1200px] lg:h-[400px] m-auto">
+<div class="w-[320px] h-[400px]"><img class="w-[200px] h-[300px]"  src="c1-assets/cute-pet-mid.png" alt=""></div>
+<div>
+    <h1 class="adlam-font text-[35px]">Get Pawsome News!</h1>
+    <h6 class="top-4 text-[19px] pt-2">Exclusive training tips, ticks, product deals and more.</h6>
+    <button class="w-96 h-auto pt-5 pb-5 ">
+        <input class="bg-white text-[rgb(196,196,196)] rounded-lg pl-6 w-94 h-15" type="text" placeholder="Enter email....">
+    </button>
+    <div class="w-52 h-10 text-center pt-2 bg-[rgb(255,220,38)] rounded-lg text-[18px]"><button>Subscribe</button></div>
+</div>
+</section>
+</body>
+</html>
